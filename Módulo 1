@@ -1,3 +1,19 @@
+Ex001-OLÁ MUNDO
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro exercício</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Esse é o meu primeiro documento html! Estou muito feliz!</p>
+</body>
+</html>
+
+
 Ex002-PARÁGRAFO, QUEBRA DE LINHA e EMOJIS
 
 <!DOCTYPE html>
@@ -39,5 +55,357 @@ Ex002-PARÁGRAFO, QUEBRA DE LINHA e EMOJIS
         &#x1F596;
         &#x1F913;
     </p>
+</body>
+</html>
+
+Ex003-TESTANDO CARGA DE IMAGEM
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com imagens</title>
+</head>
+<body>
+    <h1>Testando carga de imagens</h1>
+    <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+    <img src="logo-html-200.png" alt="Logo HTML5">
+    <p>Podemos carregar imagens que
+        estão em sub-pastas.</p>
+    <img src="imagens/logo-css-200.png" alt="Logo CSS3">
+    <p>Também podemos carregar imagens externas</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Javascript-shield.png" 
+    alt="Logo JavaScript">
+</body>
+</html>
+
+Ex004-TESTE DE FAVICON
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Teste de Favicon</title>
+</head>
+<body>
+    <h1>Olha o Favicon aqui em cima!</h1>
+</body>
+</html>
+
+
+Ex006-Hierarquia de títulos
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hierarquia de títulos</title>
+</head>
+<body>
+    <h1>Entendendo Portugal</h1>
+    <h2>Introdução</h2>
+    <h3>Justificação da temática</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+         Voluptate voluptatem velit debitis unde necessitatibus, dicta praesentium facilis. 
+         Quod illum, amet ea maxime exercitationem dolores sit eos perferendis commodi, consequuntur nemo!
+    <h3>Caráter excepcional</h3>
+    <h3>Perguntas de partida</h3>
+    <h3>Metodologia de investigação</h3>
+    <h4>Etapas de investigação</h4>
+    <h4>Instrumentos de análise</h4>
+    <h2>Ordenamento do território em Portugal</h2>
+    <h3>Os instrumentos de gestão</h3>  
+</body>
+</html>
+
+
+Ex007-SEMÂNTICA HTMAL-5
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Semântica</title>
+    <style>
+        body{
+            background-color: rgb(0, 26, 255);
+        }
+    </style>
+</head>
+<body>
+    <p1>Eu moro na <address>Rua Terezina, 68 - Rochdalle - SP</address>
+    </p1>   
+</body>
+</html>
+
+
+Ex008-FORMATAÇÃO DE TEXTO
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style> <!-- coloca cor em todos os style>
+        mark{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b>, usando a tag B (não semântica).</p>
+    <p>Nesta frase temos um <strong>termo em negrito</strong>, usando a tag STRONG (semântica).</p>
+    <h2>Itálico / ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i>, usando a tag I (não semântica).</p>
+    <p>Nesta frase temos um <em>termo em itálico</em>, usando a tag EN (semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar um texto marcado <mark>usando a tag MARK.</mark></p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small></p>
+    <h2>Texto deletado</h2>
+    <p>Podemos indicar <del>um texto como excluído</del> para indicar que ele deve ser lido, 
+        mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins>, para dar uma ênfase e indicar que ele foi adicionado 
+        posterioemente.</p>
+    <p>Podemos marcar <u>um texto como inserido</u>, para dar uma ênfase e indicar que ele foi adicionado 
+            posterioemente.</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para escrever coisas do tipo X<sup>20</sup> + 3.</p>
+    <h2>Texto subscrito</h2>
+    <p>Para escrever coisas do tipo H<sub>2</sub>0.</p>   
+</body>
+</html>
+
+OUTRAS FORMATAÇÕES
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em
+        linguagem JavaScript.</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número')):
+            if num % 2 == 0;
+                print(f'O número {num} é par.)
+            else:
+                print(f'O número {num} é impar.)
+            print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, em seu livro HTML para leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=en&gbpv=0&kptab=overview">
+        Bem vindo às possibilidades desenfreadas, 
+        malucas e maravilhosas da World Wide Web, ou, mais,
+        simplesmente, a web. HTML, XHTML e CSS Para Leigos, 
+        revela os detalhes das linguagens de marcação 
+        que são a veia da web – a Hypertext Markup Language (HTML) 
+        e sua prima, XHTM, junto com a linguagem da Cascading Style Sheet (CSS),
+        usada para fazer com que outras coisas pareçam boas. HTML e XHTML (usamos (X)HTML 
+        neste livro para fazer referência às duas) e CSS são usadas para criar páginas web. 
+        Aprender a usá-las o coloca no grupo dos autores e desenvolvedores de conteúdo web. 
+        Pense nesse livro como um guia amigável e acessível para dominar (X)HTML E CSS!
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando  <abbr title="HyperText Markup Language">HTML</abbr> e 
+        <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+</body>
+</html>
+
+
+Ex009-TRABALHANDO COM LISTAS
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="l">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square"> <!--disc circle square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>       
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ul>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bross</li>
+            <li>Ninja Guiden</li>  
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul> 
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>        
+    </ol> 
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de criação e conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação e interatividade de um site</dd>
+    </dl>
+</body>
+</html>
+
+Ex010-TRABALHANDO COM LINKS
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode usar o meu <a href="https:gustavoguanabara.github.io">
+        repositorio público no GitHub</a></p>
+    <p>Você pode usar o meu <a href="https:gustavoguanabara.github.io" target="_blank" rel="external">
+            repositorio público no GitHub</a></p><!--abre o site em outra janela-->
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar a minha 
+        segunda página <a href="pag002.html" rel="next" target="_self">segunda página.<!--_self para não abrir aba nova-->
+            <p>Você também pode acessar a <a href="noticias/pag003.html" target="_self"> nossa página de notícias.</a></p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/parasitologia.pdf" download="livro/parasitologia.pdf" type="application pdf.">
+            Baixar o livro em PDF</a></li>
+            <li><a href="livro/parasitologia.zip" download="livro/parasitologia.zip" type="application zip.">
+                Baixar o livro em ZIP</a></li>
+       
+    </ul>
+</body>
+</html>
+
+PÁG. 2
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Esta é a segunda página do meu site</h1>
+    <p>Esta página é um oferecimento de <a href="https://www.alibris.com" target="_blank" rel="nofollow">
+        Alibris</a></p><!--nofollow vc não dá aval ao conteúdo-->
+    <p>A segunda página esta aqui.</p>
+    <a href="index.html" rel="prev" >Voltar para a primeira página.</a>    
+</body>
+</html>
+
+PÁG. 3
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceira página</title>
+</head>
+<body>
+    <h1>Terceira página</h1>
+    <p>Esta é a terceira página</p>
+    <p><a href="../index.html">Voltar para a primeira página</a></p>  
+</body>
+</html>
+
+
+Ex011-MÍDIAS EM HTML-5
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>.
+ 
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop><!--loop repete o áudio-->
+        <source src="midia/spazzcardigan.mp3" type="audio/mpeg"><!--vai abrir até encontrar o formato suportado-->
+        <source src="midia/spazzcardigan.ogg" type="audio/ogg">
+        <source src="midia/spazzcardigan.wav3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.<a 
+        href="midia/spazzcardigan.mp3">Clique aqui para abaixar o arquivo 
+        mp3</a></p>
+    </audio>
 </body>
 </html>
